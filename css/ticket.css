@@ -1,0 +1,136 @@
+.ticket {
+  padding-top: 60px;
+  position: relative;
+}
+.layout {
+  position: relative;
+}
+.ticket_header {
+  padding-bottom: 20px;
+  position: relative;
+}
+.ticket_header_title {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.ticket_header_text {
+  padding-top: 15px;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(18, 18, 18, 0.5);
+  text-align: center;
+}
+
+.ticket_category {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.ticket_category_list {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+.ticket_category_list li {
+}
+.ticket_category_list li button {
+  height: 44px;
+  border-radius: 22px;
+  padding: 0 20px;
+
+  border: 1px solid #e5e5e5;
+  background-color: #fff;
+  color: #111;
+  font-size: 14px;
+  font-weight: 500;
+
+  cursor: pointer;
+}
+
+.ticket_focus {
+  background-color: #333 !important;
+  color: #fff !important;
+  border: 1px solid #333 !important;
+  font-weight: 600 !important;
+}
+
+.tour_slide_wrap {
+  position: relative;
+}
+.ticket_slide {
+  display: flex;
+  gap: 20px;
+}
+.ticket_slide_item {
+  display: block;
+  border: 1px solid #f0f0f0;
+  width: 100%;
+  height: 550px;
+  border-radius: 11px;
+}
+.ticket_slide_prev {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #e5e5e5;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.13);
+  position: absolute;
+  top: 50%;
+  left: 0;
+  z-index: 999;
+  width: 48px;
+  height: 48px;
+  background-color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  transform: translateX(-50%) translateY(-50%);
+  border-radius: 24px;
+}
+
+.ticket_slide_prev img {
+  transform: rotate(180deg);
+}
+
+.ticket_slide_next {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #e5e5e5;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.13);
+  position: absolute;
+  top: 50%;
+  right: 0;
+  z-index: 999;
+  width: 48px;
+  height: 48px;
+  background-color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  transform: translateX(50%) translateY(-50%);
+  border-radius: 24px;
+}
+.ticket_footer {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  position: relative;
+}
+.ticket_more_bt {
+  display: flex;
+  gap: 7px;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 40px;
+
+  border: 1px solid #e5e5e5;
+
+  height: 56px;
+  background-color: #fff;
+
+  font-size: 16px;
+  font-weight: 700;
+  color: #333;
+  border-radius: 23px;
+}

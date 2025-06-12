@@ -27,6 +27,12 @@
     <!-- trip 연결 -->
     <link rel="stylesheet" href="css/trip.css" />
     <script src="js/trip.js"></script>
+
+    <link rel="stylesheet" href="css/ticket.css" />
+    <script src="js/ticket.js"></script>
+
+    <link rel="stylesheet" href="css/live.css" />
+    <script src="js/live.js"></script>
   </head>
   <body>
     <!-- 영역구분 : 내용과 바탕  -->
@@ -356,16 +362,124 @@
           </div>
         </section>
         <!-- 티켓랭킹 -->
-        <div class="ticket"></div>
+        <section class="ticket">
+          <div class="layout">
+            <div class="ticket_header">
+              <h2 class="ticket_header_title">티켓 랭킹</h2>
+              <p class="ticket_header_text">오늘 뭐볼까? 지금 HOT한 공연</p>
+            </div>
+            <div class="ticket_category">
+                <ul class="ticket_category_list">
+                  <li><button class="ticket_focus">버튼</button></li>
+                  <li><button>버튼</button></li>
+                  <li><button>버튼</button></li>
+                  <li><button>버튼</button></li>
+                  <li><button>버튼</button></li>
+                </ul>
+            </div>
+            <div class="ticket_slide_wrap">
+              <!--Start Swiper Trip 슬라이드 -->
+
+              <div class="swiper sw_ticket">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <a href="#" class="ticket_slide_item">내용</a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#" class="ticket_slide_item">내용</a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#" class="ticket_slide_item">내용</a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#" class="ticket_slide_item">내용</a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#" class="ticket_slide_item">내용</a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#" class="ticket_slide_item">내용</a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#" class="ticket_slide_item">내용</a>
+                  </div>
+                </div>
+              </div>
+              <!--End Swiper Trip 슬라이드 -->
+              <button class="ticket_slide_prev">
+                <img src="images/slider_arrow.svg" alt="이전" />
+              </button>
+              <button class="ticket_slide_next">
+                <img src="images/slider_arrow.svg" alt="다음" />
+              </button>
+            </div>
+            <div class="ticket_footer">
+              <a href="#" class="ticket_more_bt">
+                티켓 홈 바로가기
+                <img src="images/icon_linkArrow.svg" alt="더보기" />
+              </a>
+            </div>
+          </div>
+        </section>
         <!-- 라이브 -->
-        <div class="live"></div>
+        <div class="live">
+          <div class="layout">
+            <div class="live_header">
+              <h2 class="live_header_title">
+                <img src="images/title_live.svg" alt="liv" />
+              </h2>
+            </div>
+            <div class="live_slide_wrap">
+              <!--Start Swiper Trip 슬라이드 -->
+
+              <div class="swiper sw_live">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <a href="#" class="live_slide_item">내용</a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#" class="live_slide_item">내용</a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#" class="live_slide_item">내용</a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#" class="live_slide_item">내용</a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#" class="live_slide_item">내용</a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#" class="live_slide_item">내용</a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#" class="live_slide_item">내용</a>
+                  </div>
+                </div>
+              </div>
+              <!--End Swiper Trip 슬라이드 -->
+              <button class="live_slide_prev">
+                <img src="images/slider_arrow.svg" alt="이전" />
+              </button>
+              <button class="live_slide_next">
+                <img src="images/slider_arrow.svg" alt="다음" />
+              </button>
+            </div>
+            <div class="live_footer">
+              <a href="#" class="live_more_bt">
+                인터파크 라이브 바로가기
+                <img src="images/icon_linkArrow.svg" alt="더보기" />
+              </a>
+            </div>
+          </div>
+        </div>
       </main>
       <!-- 영역구분: 하단 -->
       <footer class="footer">
         <!-- 하단 메뉴 -->
         <div></div>
         <!-- 회사정보 -->
-        <div></div>
+        <div></div>`
         <!-- 카피라이터 등 -->
         <div></div>
       </footer>
